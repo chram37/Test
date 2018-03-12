@@ -1,0 +1,4 @@
+- hosts: webservers
+  sudo: true
+  tasks:
+    - script: /home/docker_root/run.sh
